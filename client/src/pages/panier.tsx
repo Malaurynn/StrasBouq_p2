@@ -1,7 +1,7 @@
 import { useCart } from "../CartContext";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import "./Panier.css";
+import "./panier.css";
 
 const Panier = () => {
 	const { cart, onRemoveItem, increaseQuantity, decreaseQuantity } = useCart(); // Utiliser le contexte du panier
